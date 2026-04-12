@@ -1,0 +1,19 @@
+name: pagerank
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+    - networkx
+    - cupy
+    - tqdm
+    - numba
